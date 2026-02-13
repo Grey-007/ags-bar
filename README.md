@@ -88,23 +88,7 @@ ags run --gtk 4
 State and actions are centralized in `widgets/shell/store.ts`.
 
 ## Matugen Integration
-
-The style pipeline includes Matugen files:
-
-- `theming/matugen/ags-colors.scss.tera`
-- `style/_matugen.generated.scss`
-- `style/style.scss` imports the generated palette
-
-Helper script:
-
-```bash
-./scripts/apply-matugen.sh image ~/Pictures/wall.jpg dark
-# or
-./scripts/apply-matugen.sh color '#ff6b8a' dark
-```
-
-Note: `scripts/apply-matugen.sh` expects a Matugen config at
-`theming/matugen/config.toml`.
+` currently working on this `
 
 ## Hyprland Autostart
 
